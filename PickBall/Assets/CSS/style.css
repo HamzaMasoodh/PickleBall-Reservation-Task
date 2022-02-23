@@ -1,0 +1,34 @@
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+/* Header Content */
+.upper {
+  color: white;
+  padding: 20px 0px 20px 100px;
+  background-color: rgb(27, 80, 94);
+}
+
+/* Body Content */
+main {
+  margin: 50px 100px 0px 100px;
+}
+table {
+  margin: 20px 0px 20px 0px;
+}
+#addbutton {
+  float: right;
+}
+
+/* Footer Content */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(36, 94, 110);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}

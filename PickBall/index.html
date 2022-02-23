@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css">
+    <link rel="stylesheet" href="./Assets/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./Assets/FontAwesome/css/all.css">
+    <title>PickleBall Reservation</title>
+</head>
+
+<body>
+    <header class="upper">
+        <div class="container-fluid">
+            <h1>PickleBall Court Reservation</h1>
+        </div>
+
+
+    </header>
+    <Main>
+        <div class="container-fluid">
+            <button type="button" class="btn btn-primary"><i class="fa-solid fa-circle-plus"></i> Add New Account</button><br>
+
+            <table class="table table-bordered">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Sr</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Time Slots</th>
+                        <th scope="col">Courts</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>hamzaa.fsd@gmail.com</td>
+                        <td>2-23-2022</td>
+                        <td>Select Time</td>
+                        <td>Pakistan</td>
+                        <td><span class="badge badge-secondary">Pending</span></td>
+                        <td><button type="button" class="btn btn-success"><i class="fa-solid fa-play"></i></button>
+                            <button type="button" class="btn btn-warning"><i class="fa-solid fa-stop"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="fa-solid fa-circle-minus"></i></button>
+                        </td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <button type="button" class="btn btn-success" id="addbutton"><i class="fa-solid fa-plus"></i> Add New
+                Row</button>
+
+        </div>
+
+
+    </Main>
+    <footer class="bottom">
+        <div class="footer">
+            <h4>Copyright &copy; PickleBall Court. All Rights Reserved</h4>
+        </div>
+    </footer>
+
+</body>
+
+</html>
